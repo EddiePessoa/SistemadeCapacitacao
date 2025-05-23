@@ -10,7 +10,6 @@ public class Programa {
         isabela.setOrgao("ANVISA");
         isabela.setLotacao("Brasilia");
         isabela.setEmail("isabela@gmail.");
-
         System.out.println("Servidor: "+ isabela.getNome());
 
     }
