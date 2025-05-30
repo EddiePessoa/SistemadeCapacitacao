@@ -10,7 +10,8 @@ public class Programa {
         isabela.setOrgao("ANVISA");
         isabela.setLotacao("Brasilia");
         isabela.setEmail("isabela@gmail.");
+        isabela.setSalario(1250);
         System.out.println("Servidor: "+ isabela.getNome());
-
+        System.out.println(isabela.calcularNumeros(1, 3, 4, 5, 10, 100));
     }
 }
