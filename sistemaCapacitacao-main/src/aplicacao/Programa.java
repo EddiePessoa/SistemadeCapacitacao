@@ -48,25 +48,19 @@ public class Programa {
         preco = leia.nextDouble();
         produto.setPrice(preco);
 
-        System.out.println("Dados do produto: "+produto.getName()+", $"+produto.getPrice()+", "+produto.getQuantity()+" unidades, "+"Total: $ "+produto.TotalValueStock());
+        System.out.println("Dados do produto: "+ produto);
 
         System.out.println("Digite o número de produtos para adicionar no estoque: ");
         quantidade_Add = leia.nextInt();
         produto.AddProducts(quantidade_Add);
 
-        System.out.println("Dados do produto: "+produto.getName()+", $"+produto.getPrice()+", "+produto.getQuantity()+" unidades, "+"Total: $ "+produto.TotalValueStock());
+        System.out.println("Dados do produto: "+ produto);
 
         System.out.println("Digite o número de produtos para remover no estoque: ");
         quantidade_Rem = leia.nextInt();
         produto.RemoveProducts(quantidade_Rem);
 
-        System.out.println("Dados do produto: "+produto.getName()+", $"+produto.getPrice()+", "+produto.getQuantity()+" unidades, "+"Total: $ "+produto.TotalValueStock());
-
-
-
-
-
-
+        System.out.println("Dados do produto: "+ produto);
 
     }
 }

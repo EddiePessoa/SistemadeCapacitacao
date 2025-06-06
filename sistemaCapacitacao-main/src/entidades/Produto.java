@@ -52,6 +52,16 @@ public class Produto {
         setQuantity(qntd);
     }
 
+    public  String toString(){
+        return name
+                + ", $"
+                + String.format("%.2f", price)
+                + ", "
+                + Quantity
+                + "units, Total: $ "
+                + String.format("%.2f", TotalValueStock());
+    }
+
 
 
 }
